@@ -1,0 +1,89 @@
+body {
+    font-family: "Times New Roman";
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.cuerpo {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.titulo {
+    color: #005677;
+    background-color: #C4C4C4;
+    letter-spacing: 5px;
+}
+
+.titulo h1 {
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.titulo h2 {
+    line-height: 30px;
+    margin: 20px 20px 3px 20px;
+    letter-spacing: 5px;
+}
+
+.grilla {
+    width: 100%;
+}
+
+.dato {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.anios {
+    font-weight: bold;
+}
+
+.detalles {
+    display: inline-grid;
+}
+
+.detalles p {
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 15px;
+}
+
+.espacio {
+    width: 100%;
+    height: 100px;
+}
+
+.piepagina {
+    width: 100%;
+    background-color: #005677;
+}
+
+.contenidopie {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contenidopie p {
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.contenidopie p > span {
+    margin-right: 20px;
+}
+
+.redessociales {
+    margin-right: 20px;
+    vertical-align: text-top;
+}
