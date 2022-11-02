@@ -2,6 +2,8 @@ body {
     font-family: "Times New Roman";
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .encabezado {
     background-color: #E6E6E6;
     margin-bottom: 0px;
@@ -20,7 +22,8 @@ body {
 .titulo {
     color: #005677;
     background-color: #C4C4C4;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .titulo h1 {
@@ -32,7 +35,7 @@ body {
 .titulo h2 {
     line-height: 30px;
     margin: 20px 20px 3px 20px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 
 .grilla {
