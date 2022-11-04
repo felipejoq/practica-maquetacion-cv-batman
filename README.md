@@ -6,4 +6,4 @@
 
 ## Vista Previa
 
-![Vista previa del resultado](https://raw.githubusercontent.com/felipejoq/practica-maquetacion-cv-batman/master/img/preview.png)
+Una vista previa en este enlace: https://felipejoq.github.io/practica-maquetacion-cv-batman/
