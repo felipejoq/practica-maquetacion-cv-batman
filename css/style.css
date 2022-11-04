@@ -8,12 +8,6 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-figcaption {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-}
-
 li {
     margin: 5px;
 }
@@ -81,8 +75,9 @@ li {
 }
 
 .espacio {
+    display: block;
     width: 100%;
-    height: 100px;
+    height: 20px;
 }
 
 .piepagina {
@@ -110,4 +105,39 @@ li {
 .redessociales {
     margin-right: 20px;
     vertical-align: text-top;
+}
+
+/* CSS Animation Text - Only testing */
+
+.animate-charcter
+{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 70% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: block;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
 }
