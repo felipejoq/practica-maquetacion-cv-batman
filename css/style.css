@@ -1,8 +1,22 @@
-body {
-    font-family: "Times New Roman";
+* {
+    margin: 0px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+figcaption {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+li {
+    margin: 5px;
+}
 
 .encabezado {
     background-color: #E6E6E6;
@@ -10,8 +24,16 @@ body {
 }
 
 .logo {
+    padding: 10px;
     width: 100%;
     text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+    border-radius: 50%;
+    border:1px solid #000;
+    filter: drop-shadow(5px 3px 5px #000);
 }
 
 .cuerpo {
@@ -21,21 +43,21 @@ body {
 
 .titulo {
     color: #005677;
-    background-color: #C4C4C4;
+    background-color: #eeeeee;
     letter-spacing: 2px;
-    font-family: 'Oswald', sans-serif;
+    border-bottom: solid 3px  #005677;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .titulo h1 {
     line-height: 50px;
     text-align: center;
-    margin: 10px 0px 10px 0px;
 }
 
 .titulo h2 {
     line-height: 30px;
-    margin: 20px 20px 3px 20px;
-    /* letter-spacing: 5px; */
+    margin-left: 20px;
 }
 
 .grilla {
@@ -46,23 +68,16 @@ body {
     font-weight: bold;
 }
 
-.italico {
-    font-style: italic;
-}
-
-.anios {
-    font-weight: bold;
-}
-
 .detalles {
     display: inline-grid;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .detalles p {
     font-size: 15px;
     padding-bottom: 0px;
-    margin-bottom: 0px;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 .espacio {
@@ -73,6 +88,7 @@ body {
 .piepagina {
     width: 100%;
     background-color: #005677;
+    border-top: solid 3px #FFF;
 }
 
 .contenidopie {
